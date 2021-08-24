@@ -1,0 +1,52 @@
+:root {
+  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2ebd1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: #013047;
+  border-top: 5px solid red;
+}
+
+#logo {
+  border-bottom: 5px solid red;
+  border-radius: 5px;
+}
+
+.container {
+  margin: 30px auto;
+  width: 350px;
+  line-height: 1.2;
+}
+
+#ico {
+  border-bottom: 5px solid red;
+  border-radius: 5px;
+  line-height: 0.4;
+}
+
+#image {
+  float: left;
+  align-items: center;
+  justify-content: center;
+}
