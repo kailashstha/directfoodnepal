@@ -28,12 +28,17 @@ h1 {
   border-top: 5px solid red;
 }
 
+h3 {
+  font-family: "Fredoka One";
+}
+
 #logo {
-  border-bottom: 5px solid red;
+  display: inline-block;
+
   padding-bottom: 0px;
   margin-bottom: 0px;
-  height: 200px;
-  width: 250px;
+  height: 150px;
+  width: 200px;
 }
 
 .container {
@@ -54,4 +59,8 @@ h1 {
   align-content: center;
   width: 50px;
   height: 50px;
+}
+
+#footer {
+  font-family: "Fredoka One";
 }
